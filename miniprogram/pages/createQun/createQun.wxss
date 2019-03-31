@@ -1,0 +1,5 @@
+/* pages/createQun/createQun.wxss */
+.createButton {
+  width: 80%;
+  margin-top: 30rpx;
+}

@@ -1,0 +1,16 @@
+<!--pages/chooseRole/chooseRole.wxml-->
+<!-- 选择乘客还是司机的角色 -->
+
+<view class="padding flex flex-direction">
+
+
+  <button class='cu-btn bg-orange lg' bindtap='choosePessenger'>我是乘客</button>
+  
+</view>
+
+
+<view class="padding flex flex-direction">
+
+
+  <button class='cu-btn bg-blue margin-tb-sm lg' bindtap='chooseDriver'>我是司机</button>
+</view>

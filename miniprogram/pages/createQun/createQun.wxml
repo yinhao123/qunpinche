@@ -1,0 +1,55 @@
+<!--pages/createQun/createQun.wxml-->
+<view>
+
+  <swiper class="card-swiper {{DotStyle?'square-dot':'round-dot'}}" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500" bindchange="cardSwiper" indicator-color="#8799a3" indicator-active-color="#0081ff">
+  <swiper-item wx:for="{{4}}" wx:key class="{{cardCur==index?'cur':''}}">
+    <view class='bg-img shadow-blur' style="background-image:url(https://image.weilanwl.com/img/4x3-{{index+1}}.jpg)"></view>
+  </swiper-item>
+</swiper>
+
+</view>
+
+<button class=' createButton bg-blue' open-type="share">创建群拼车</button>
+<view class='flex justify-center'>
+<text class='text-gray'>只有发到微信群，才能正常创建</text>
+</view>
+
+
+
+<view class="cu-bar bg-white solid-bottom margin-top">
+  <view class='action'>
+    <text class='icon-title text-orange '></text> 我的拼车群
+  </view>
+</view>
+
+<view class="cu-list menu menu-avatar">
+ 
+  <view class="cu-item " bindtap='enterQun'>
+    <view class="cu-avatar radius lg" style="background-image:url(https://image.weilanwl.com/img/square-3.jpg);"></view>
+    <view class='content'>
+      <view>涞水←→天津</view>
+      <view class='text-gray text-sm'>
+        兰豆豆创建了群拼车</view>
+    </view>
+    <view class='action'>
+      <view class='text-grey text-xs'>12:20</view>
+      <view class="cu-tag round bg-red sm">5</view>
+    </view>
+  </view>
+  <view class="cu-item grayscale" bindtap='enterQun'>
+    <view class="cu-avatar radius lg" style="background-image:url(https://image.weilanwl.com/img/square-3.jpg);"></view>
+    <view class='content'>
+      <view>高碑店←→天津</view>
+      <view class='text-gray text-sm'>
+        微光。创建了群拼车</view>
+    </view>
+    <view class='action'>
+      <view class='text-grey text-xs'>22:20</view>
+      <view class="cu-tag round bg-red sm">5</view>
+    </view>
+  </view>
+ 
+</view>
+
+
+

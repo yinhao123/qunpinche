@@ -1,0 +1,73 @@
+<!--pages/find/find.wxml-->
+<view class='box'>
+  <view class="cu-bar search bg-white">
+    <view class='search-form round'>
+      <text class="icon-search"></text>
+      <input type="text" placeholder="搜索地点" confirm-type="search"></input>
+    </view>
+    <view class='action'>
+      <button class='cu-btn bg-blue shadow-blur round'>搜索</button>
+    </view>
+  </view>
+ 
+<view class="cu-bar bg-white solid-bottom ">
+  <view class='action'>
+    <text class='icon-title text-green '></text> 最新发布的拼车信息
+  </view>
+</view>
+
+ </view>
+
+<view class="cu-list menu menu-avatar">
+  <view class="cu-item">
+    <view class="cu-avatar round lg" style="background-image:url(https://image.weilanwl.com/img/square-1.jpg);"></view>
+    <view class='content'>
+     
+      <view class='text-grey'>文晓港 <view class="cu-tag round bg-orange sm">人找车</view>
+      </view>
+      <view class='text-gray text-sm'>
+        <text class=' text-red'></text> 20点00分</view>
+        <view class='text-gray text-sm'> 军粮城到高碑店</view>
+  
+    </view>
+    <view class='action'>
+      <view class='text-grey text-xs'>22:20</view>
+      <view class="cu-tag round bg-grey sm">5</view>
+    </view>
+  </view>
+    <view class="cu-item">
+    <view class="cu-avatar round lg" style="background-image:url(https://image.weilanwl.com/img/square-1.jpg);"></view>
+    <view class='content'>
+     
+      <view class='text-grey'>Exxon <view class="cu-tag round bg-orange sm">人找车</view>
+      </view>
+      <view class='text-gray text-sm'>
+        <text class=' text-red'></text> 20点00分</view>
+        <view class='text-gray text-sm'> 军粮城到高碑店</view>
+  
+    </view>
+    <view class='action'>
+      <view class='text-grey text-xs'>22:20</view>
+      <view class="cu-tag round bg-grey sm">5</view>
+    </view>
+  </view>
+    <view class="cu-item">
+    <view class="cu-avatar round lg" style="background-image:url(https://image.weilanwl.com/img/square-1.jpg);"></view>
+    <view class='content'>
+     
+      <view class='text-grey'>李三 <view class="cu-tag round bg-green sm">车找人</view>
+      </view>
+      <view class='text-gray text-sm'>
+        <text class=' text-red'></text> 16点00分</view>
+        <view class='text-gray text-sm'> 军粮城到高碑店</view>
+  
+    </view>
+    <view class='action'>
+      <view class='text-grey text-xs'>22:20</view>
+      <view class="cu-tag round bg-grey sm">5</view>
+    </view>
+  </view>
+
+ 
+</view>
+

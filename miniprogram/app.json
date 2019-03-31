@@ -1,0 +1,75 @@
+{
+  "pages": [
+    "pages/createQun/createQun",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/carList/carList",
+    "pages/details/details",
+    "pages/chooseRole/chooseRole",
+    "pages/verifyPhone/verifyPhone",
+    "pages/inputPassengerInfo/inputPassengerInfo",
+    "pages/inputDriverInfo/inputDriverInfo",
+    "pages/findCar/findCar",
+    "pages/findPerson/findPerson",
+    "pages/messages/messages",
+    "pages/mine/mine",
+    "pages/help/help",
+    "pages/about/about",
+    "pages/logs/logs",
+    "pages/find/find",
+    "pages/search/search",
+    "pages/info/success/success",
+    "pages/info/fail/fail",
+    "pages/info/wait/wait",
+    "pages/info/error/error",
+    "pages/shiyanshi/shiyanshi",
+    "pages/showPassengerMsg/showPassengerMsg",
+    "pages/showDriverMsg/showDriverMsg"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "群拼车",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "custom": false,
+    "color": "#aaa",
+    "selectedColor": "#39b54a",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/createQun/createQun",
+        "iconPath": "/images/tabbar/basics.png",
+        "selectedIconPath": "/images/tabbar/basics_cur.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "iconPath": "/images/tabbar/plugin.png",
+        "selectedIconPath": "/images/tabbar/plugin_cur.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/messages/messages",
+        "iconPath": "/images/tabbar/component.png",
+        "selectedIconPath": "/images/tabbar/component_cur.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "/images/tabbar/about.png",
+        "selectedIconPath": "/images/tabbar/about_cur.png",
+        "text": "我的"
+      }
+    ]
+  }
+
+}

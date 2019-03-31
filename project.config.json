@@ -1,0 +1,118 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"appid": "wx6073f93e40c4ef1f",
+	"projectname": "%E7%BE%A4%E6%8B%BC%E8%BD%A6",
+	"libVersion": "2.2.5",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 11,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "首页创建群",
+					"pathName": "pages/createQun/createQun",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "列表页",
+					"pathName": "pages/carList/carList",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "关于",
+					"pathName": "pages/about/about",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "更新日志",
+					"pathName": "pages/logs/logs",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/mine/mine",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "角色选择",
+					"pathName": "pages/chooseRole/chooseRole",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "填写乘客信息",
+					"pathName": "pages/inputPassengerInfo/inputPassengerInfo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "填写司机信息",
+					"pathName": "pages/inputDriverInfo/inputDriverInfo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "搜索页",
+					"pathName": "pages/search/search",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "成功页",
+					"pathName": "pages/info/success/success",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "拼车乘客详情页",
+					"pathName": "pages/showPassengerMsg/showPassengerMsg",
+					"scene": null
+				}
+			]
+		}
+	}
+}

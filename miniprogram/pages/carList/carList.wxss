@@ -1,0 +1,11 @@
+/* pages/carList/carList.wxss */
+.listbar {
+  margin-top: 92%;
+ position: absolute;
+ /* bottom:0;
+ left:0; */
+ width:100%;
+}
+/* .addButton {
+  background-color: rgb(235, 67, 6);
+} */

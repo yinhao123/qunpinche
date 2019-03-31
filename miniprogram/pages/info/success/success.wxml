@@ -1,0 +1,16 @@
+<!--pages/info/success/success.wxml-->
+<view class='bg-white padding-lr'>
+  <view class='solids-bottom padding-xs flex align-center'>
+   
+    <view class='flex-sub text-center'>
+      <view class='solid-bottom text-xsl padding'>
+        <text class=' icon-roundcheckfill text-green'></text>
+      </view>
+      <view class='padding'>发布信息成功！马上分享到拼车群让更多的人看到吧！</view>
+    </view>
+  </view>
+ <view class="padding">
+  <button class='cu-btn block bg-blue margin-tb-sm lg'  type=''>分享到拼车群</button>
+  <button class='cu-btn block line-blue margin-tb-sm lg' >返回首页</button>
+</view>
+</view>

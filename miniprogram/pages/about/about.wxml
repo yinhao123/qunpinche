@@ -1,0 +1,20 @@
+<!--pages/about/about.wxml-->
+<!-- <view class="cu-custom" style="height:{{CustomBar}}px;">
+  <view class="cu-bar fixed bg-gradual-green" style="height:{{CustomBar}}px;padding-top:{{StatusBar}}px;">
+    <navigator class='action' open-type="navigateBack" delta="1" hover-class="none">
+      <text class='icon-back'></text> 关于
+    </navigator>
+  </view>
+</view> -->
+
+<view class='margin-xl bg-white padding-xl radius shadow-lg'>
+  <view class='text-center margin-bottom text-lg  text-grey'>关于群拼车</view>
+  <view class='text-content'>
+    <view>Hi！乘客&司机朋友们~欢迎使用群拼车！</view>
+    <view class='margin-top-sm'>该项目是我个人开发的一款方便大家拼车的小程序。为大家提供拼车最大的便利，如果大家对这个小程序有什么想法或者建议，可以告诉我，好的想法，好的建议会在下一版本中增加上，让这个小程序更好用。</view>
+    <view class='margin-top-sm'>这个小程序是免费的，并且以后也不会收费。我做这个小程序就是为了方便大家，因为我也经常拼车回家，体会到了微信群的拼车的便利性，但是有一些问题需要改进的，我尽量用这个小程序做好。</view>
+    <view class='margin-top-sm'>٩(๑❛ᴗ❛๑)۶</view>
+    <view class='margin-top-sm' bindlongtap='caidan'>更多功能敬请期待！</view>
+    <view class='margin-top-sm'>2019年3月26日 00点10分</view>
+  </view>
+</view>
