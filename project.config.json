@@ -28,7 +28,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 11,
+			"current": 12,
 			"list": [
 				{
 					"id": -1,
@@ -110,6 +110,13 @@
 					"id": -1,
 					"name": "拼车乘客详情页",
 					"pathName": "pages/showPassengerMsg/showPassengerMsg",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "拼车司机详情页",
+					"pathName": "pages/showDriverMsg/showDriverMsg",
 					"scene": null
 				}
 			]

@@ -7,7 +7,17 @@ Page({
   data: {
 
   },
-
+  findCar(){
+    wx.navigateTo({
+      url: '/pages/showPassengerMsg/showPassengerMsg',
+    })
+  },
+  findPerson()
+  {
+    wx.navigateTo({
+      url: '/pages/showDriverMsg/showDriverMsg',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

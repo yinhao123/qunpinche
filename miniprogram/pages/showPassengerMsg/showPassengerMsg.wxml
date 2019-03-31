@@ -1,2 +1,121 @@
 <!-- 乘客详情页 -->
+<view class="cu-list menu menu-avatar">
+  <view class="cu-item">
+    <view class="cu-avatar round lg" style="background-image:url(https://image.weilanwl.com/img/square-1.jpg);"></view>
+    <view class='content'>
+      <view class='text-grey'>文晓港</view>
+      <view class='text-gray text-sm'>
+        这个人很懒，什么也没有留下</view>
+    </view>
+    <view class='action'>
+      <!-- <view class='text-grey text-xs'>22:20</view>
+      <view class="cu-tag round bg-grey sm">5</view> -->
+    </view>
+  </view>
+  </view>
+  <view class="cu-list menu {{menuBorder?'sm-border':''}} {{menuCard?'card-menu margin-top':''}}">
+  <view class="cu-item {{menuArrow?'arrow':''}}">
+    <view class='content'>
+      <text class='icon-circlefill text-grey'></text>
+      <text class='text-grey'>拼车人数</text>
+    </view>
+      <view class='action'>
+      <text class='text-grey text-grey'>1人</text>
+    </view>
+  </view>
+  <view class="cu-item {{menuArrow?'arrow':''}}">
+    <view class='content'>
+      <image src='/images/logo.png' class='png' mode='aspectFit'></image>
+      <text class='text-grey'>出发时间</text>
+    </view>
+      <view class='action'>
+      <text class='text-grey text-grey'>2019年3月31日 15：00</text>
+    </view>
+  </view>
+  <view class="cu-item {{menuArrow?'arrow':''}}">
+    <button class='cu-btn content' open-type='contact'>
+      <text class='icon-btn text-olive'></text>
+      <text class='text-grey'>是否携带行李</text>
+    </button>
+    <view class='action'>
+      <text class='text-grey text-grey'>不携带</text>
+    </view>
+  </view>
+  <view class="cu-item {{menuArrow?'arrow':''}}">
+    <navigator class='content' hover-class='none' url='../list/list' open-type="redirect">
+      <text class='icon-discoverfill text-orange'></text>
+      <text class='text-grey'>出发地点</text>
+      
+    </navigator>
+       <view class='action'>
+      <text class='text-grey text-grey'>天津东丽和顺家园</text>
+    </view>
+  </view>
+    <view class="cu-item {{menuArrow?'arrow':''}}">
+    <navigator class='content' hover-class='none' url='../list/list' open-type="redirect">
+      <text class='icon-discoverfill text-orange'></text>
+      <text class='text-grey'>到达地点</text>
+      
+    </navigator>
+       <view class='action'>
+      <text class='text-grey text-grey'>保定市高碑店市植物园</text>
+    </view>
+  </view>
+  <view class="cu-item {{menuArrow?'arrow':''}}">
+    <view class='content'>
+      <text class='icon-emojiflashfill text-pink'></text>
+      <text class='text-grey'>和他/她打招呼的人</text>
+    </view>
+    <view class='action'>
+      <view class="cu-avatar-group">
+        <view class="cu-avatar round sm" style="background-image:url(https://image.weilanwl.com/img/square-4.jpg);"></view>
+        <view class="cu-avatar round sm" style="background-image:url(https://image.weilanwl.com/img/square-3.jpg);"></view>
+        <view class="cu-avatar round sm" style="background-image:url(https://image.weilanwl.com/img/square-2.jpg);"></view>
+        <view class="cu-avatar round sm" style="background-image:url(https://image.weilanwl.com/img/square-1.jpg);"></view>
+      </view>
+      <text class='text-grey text-sm'>4 人</text>
+    </view>
+  </view>
+  <!-- <view class="cu-item {{menuArrow?'arrow':''}}">
+    <view class='content'>
+      <text class='icon-btn text-green'></text>
+      <text class='text-grey'>按钮</text>
+    </view>
+    <view class='action'>
+      <button class='cu-btn round bg-green shadow'>
+        <text class='icon-upload'></text> 上传</button>
+    </view>
+  </view> -->
+  <view class="cu-item {{menuArrow?'arrow':''}}">
+    <view class='content'>
+      <text class='icon-tagfill text-red'></text>
+      <text class='text-grey'>标签</text>
+    </view>
+    <view class='action'>
+      <view class="cu-tag round bg-orange light">音乐</view>
+      <view class="cu-tag round bg-olive light">电影</view>
+      <view class="cu-tag round bg-blue light">旅行</view>
+    </view>
+  </view>
+  <view class="cu-item {{menuArrow?'arrow':''}}">
+    <view class='content'>
+      <text class='icon-warn text-green'></text>
+      <text class='text-grey'>备注</text>
+    </view>
+    <view class='action'>
+      <text class='text-grey text-grey'>小目标还没有实现！</text>
+    </view>
+  </view>
+  
+</view>
+
+
+<view class="padding flex flex-direction">
+
+
+  <button class='cu-btn bg-orange lg' bindtap='sayHello'>打个招呼</button>
+  
+</view>
+
+
 
